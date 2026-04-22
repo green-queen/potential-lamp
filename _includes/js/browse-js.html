@@ -43,6 +43,9 @@ const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_
 // Cache DOM elements
 var loadingIcon, filterTextBox, browseItemsDiv;
 
+// Initialize selection from localStorage for timeline selection
+let selectedItems = JSON.parse(localStorage.getItem('browseSelections')) || [];
+
 {% include helpers/get-icon.js %}
 
 // =============================================================================
@@ -1059,62 +1062,65 @@ function setupEventHandlers() {
         });
     }
 
-    // Initialize selection from localStorage
-    let selectedItems = JSON.parse(localStorage.getItem('browseSelections')) || [];
-
-    function toggleSelection(id, btn) {
+    window.toggleSelection = function(id, btn) {
         const itemTitle = btn.getAttribute('data-title');
         const index = selectedItems.findIndex(item => item.id === id);
 
-    if (index === -1) {
-        // Add to list
-        selectedItems.push({ id: id, title: itemTitle });
-        btn.classList.replace('btn-outline-primary', 'btn-success');
-        btn.innerText = 'Selected ✓';
-    } else {
-        // Remove from list
-        selectedItems.splice(index, 1);
-        btn.classList.replace('btn-success', 'btn-outline-primary');
-        btn.innerText = 'Select';
+        if (index === -1) {
+            // Add to list
+            selectedItems.push({ id: id, title: itemTitle });
+            btn.classList.replace('btn-outline-primary', 'btn-success');
+            btn.innerText = 'Selected ✓';
+        } else {
+            // Remove from list
+            selectedItems.splice(index, 1);
+            btn.classList.replace('btn-success', 'btn-outline-primary');
+            btn.innerText = 'Select';
+        }
+
+        localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
+        renderSelectionList();
     }
 
-    localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
-    renderSelectionList();
-    }
-
+    // 1. Save and Load logic
     function renderSelectionList() {
         const listContainer = document.getElementById('selectionListDisplay');
         if (!listContainer) return;
 
         if (selectedItems.length === 0) {
-            listContainer.innerHTML = '<p class="text-muted">No items selected.</p>';
+            listContainer.innerHTML = '<p class="text-muted small">No items selected.</p>';
             return;
         }
 
-        let html = '<ul class="list-group mb-3">';
+        let html = '<ul class="list-group list-group-flush mb-3">';
         selectedItems.forEach(item => {
-            html += `<li class="list-group-item d-flex justify-content-between align-items-center">
-                    ${item.title}
-                    <button class="btn btn-sm btn-danger" onclick="removeFromList('${item.id}')">×</button>
-                 </li>`;
+            html += `<li class="list-group-item d-flex justify-content-between align-items-center p-2 small">
+                        ${item.title}
+                        <button class="btn btn-sm btn-link text-danger p-0" onclick="removeFromList('${item.id}')" style="text-decoration:none">✕</button>
+                     </li>`;
         });
-        html += '</ul><button class="btn btn-sm btn-link text-danger" onclick="clearAllSelections()">Clear All</button>';
+        html += '</ul><button class="btn btn-sm btn-outline-danger w-100" onclick="clearAllSelections()">Clear List</button>';
         listContainer.innerHTML = html;
     }
 
-    function removeFromList(id) {
+    window.removeFromList = function(id) {
         selectedItems = selectedItems.filter(item => item.id !== id);
         localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
-        // Re-render items to reset button states
-        const query = document.querySelector('#filterTextBox').value;
-        filterItems(items, query); 
+        // This forces the cards to redraw with the correct "Select" button state
+        handleHashChange(); 
         renderSelectionList();
-    }
+    };
 
-    function clearAllSelections() {
-        selectedItems = [];
-        localStorage.removeItem('browseSelections');
-        location.reload(); // Reset all button UI states
+    window.clearAllSelections = function() {
+        if(confirm("Clear your list?")) {
+            selectedItems = [];
+            localStorage.removeItem('browseSelections');
+            location.reload();
+        }
+    };
+
+    // Initialize the display on load
+    document.addEventListener('DOMContentLoaded', renderSelectionList);
     }
 }
 </script>
