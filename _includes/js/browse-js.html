@@ -1086,7 +1086,7 @@ function setupEventHandlers() {
     // ========================================
     // TIMELINE HANDLING
     // ========================================
-    window.toggleSelection = function(id, btn) {
+    function toggleSelection(id, btn) {
         const itemTitle = btn.getAttribute('data-title');
         const index = selectedItems.findIndex(item => item.id === id);
 
@@ -1127,7 +1127,7 @@ function setupEventHandlers() {
         listContainer.innerHTML = html;
     }
 
-    window.removeFromList = function(id) {
+    function removeFromList(id) {
         selectedItems = selectedItems.filter(item => item.id !== id);
         localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
         // This forces the cards to redraw with the correct "Select" button state
@@ -1135,13 +1135,10 @@ function setupEventHandlers() {
         renderSelectionList();
     };
 
-    window.clearAllSelections = function() {
-        if(confirm("Clear your list?")) {
-            selectedItems = [];
-            localStorage.removeItem('browseSelections');
-            location.reload();
-        }
-    };
+    function clearAllSelections() {
+        selectedItems = [];
+        localStorage.removeItem('browseSelections');
+        location.reload(); // Reset all button UI states
 
     // Initialize the display on load
     document.addEventListener('DOMContentLoaded', renderSelectionList);
