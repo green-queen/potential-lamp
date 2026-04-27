@@ -17,4 +17,9 @@ permalink: /
         This is a project of imagining and laboring towards a Palestinian Studies shaped in and through collaborative networks of research and pedagogy. Working alongside rather than in place of the crucial task of creating new faculty lines in Palestinian Studies, we aim to organically propagate Palestinian Studies across a range of scholarly fields and levels of expertise through the sharing and curating of pedagogical resources. Our task, in other words, is to develop both a product - an open-access digital resource - and  a novel kind of process that diffuses the labor of Palestinian Studies among scholars with varying levels and kinds of expertise.
         </p>
     </div>
-      
+<section class="container my-5" id="collections">
+  <h2 class="mb-4">Collections</h2>
+  <p class="mb-4">
+    Explore thematic collections designed to help teachers and students engage with Palestinian history, culture, and pedagogy.
+  </p>   
+  <div class="row">
