@@ -112,14 +112,14 @@ function makeCard(obj) {
         card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
     }
     
-    // --- SELECTION LOGIC & BUTTON ---
+    // --- SELECTION LOGIC & BUTTON FOR TIMELINE ---
     let isSelected = false;
     if (typeof selectedItems !== 'undefined' && Array.isArray(selectedItems)) {
         isSelected = selectedItems.some(i => i.id === obj.id);
     }
     
-    const btnClass = isSelected ? 'btn-success' : 'btn-outline-primary';
-    const btnText = isSelected ? 'Selected ✓' : 'Select';
+    var btnClass = isSelected ? 'btn-success' : 'btn-outline-primary';
+    var btnText = isSelected ? 'Selected ✓' : 'Select';
     
     // Safely escape quotes in the title so it doesn't break the HTML attribute
     const safeTitle = obj.title ? obj.title.replace(/"/g, '&quot;').replace(/'/g, '\\\'') : 'Item';
