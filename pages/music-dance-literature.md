@@ -4,4 +4,4 @@ layout: page
 permalink: /collections/musicdanceliterature.html
 ---
 
-# usic, Dance, and Literature
+# Music, Dance, and Literature
