@@ -26,8 +26,8 @@ permalink: /
       </div>
     </div>
 
-    <div class="col-md-6 mb-4">
-      <div class="card h-100">
+  <div class="col-md-6 mb-4">
+    <div class="card h-100">
         <img src="{{ '/assets/img/music.jpg' | relative_url }}" class="card-img-top" alt="Music, Dance, and Literature">
         <div class="card-body">
           <h5 class="card-title">Music, Dance, and Literature</h5>
@@ -35,6 +35,36 @@ permalink: /
             This collection examines how music, dance, and literature shape public memory of Palestine.
           </p>
           <a href="{{ '/collections/musicdanceliterature.html' | relative_url }}" class="btn btn-primary">
+            View Collection
+          </a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <img src="{{ '/assets/img/space.jpg' | relative_url }}" class="card-img-top" alt="Space, Architecture, and Environment">
+        <div class="card-body">
+          <h5 class="card-title">Space, Architecture, and Environment</h5>
+          <p class="card-text">
+            This collection focuses on Space, Architecture, and Environment.
+          </p>
+          <a href="{{ '/collections/spacearchitectureenvironment.html' | relative_url }}" class="btn btn-primary">
+            View Collection
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <div class="col-md-6 mb-4">
+      <div class="card h-100">
+        <img src="{{ '/assets/img/war.jpg' | relative_url }}" class="card-img-top" alt="War, Violence, and Displacement">
+        <div class="card-body">
+          <h5 class="card-title">War, Violence, and Displacement</h5>
+          <p class="card-text">
+            This collection focuses on War, Violence, and Displacement.
+          </p>
+          <a href="{{ '/collections/warviolencedisplacement.html' | relative_url }}" class="btn btn-primary">
             View Collection
           </a>
         </div>
