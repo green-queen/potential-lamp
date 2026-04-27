@@ -22,6 +22,9 @@ permalink: /
           <a href="{{ '/collections/heritagebelongingbelief.html' | relative_url }}" class="btn btn-primary">
             View Collection
           </a>
+          <a href="#heritage-video" class="btn btn-outline-secondary btn-sm mt-2">
+            Watch intro video
+          </a>
         </div>
       </div>
     </div>
