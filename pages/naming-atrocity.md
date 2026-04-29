@@ -1,5 +1,5 @@
 ---
-title: Naming Atrocity: Who Decides What Counts As Genocide, And Why It Matters
+title: "Naming Atrocity: Who Decides What Counts As Genocide, And Why It Matters"
 layout: page
 permalink: /clusters/naming-atrocity.html
 ---
