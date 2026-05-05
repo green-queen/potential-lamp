@@ -99,18 +99,6 @@ permalink: /clusters/
         <div class="card h-100">
           <img src="/assets/img/cluster2.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">Cluster 2</h5>
-          </div>
-        </div>
-      </a>
-    </div>
-
-    <!-- Cluster 8 -->
-    <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
-        <div class="card h-100">
-          <img src="/assets/img/cluster2.jpg" class="card-img-top">
-          <div class="card-body">
             <h5 class="card-title">Creation of Queer Self-Identity</h5>
           </div>
         </div>
