@@ -35,7 +35,7 @@ permalink: /clusters/
 
     <!-- Cluster 3 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/care-ethics/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/care-ethics.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster3.jpg" class="card-img-top">
           <div class="card-body">
@@ -71,7 +71,7 @@ permalink: /clusters/
 
     <!-- Cluster 6 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/spatial-violence.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster6.jpg" class="card-img-top">
           <div class="card-body">
@@ -83,7 +83,7 @@ permalink: /clusters/
 
     <!-- Cluster 7 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/framing-past.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster7.jpg" class="card-img-top">
           <div class="card-body">
@@ -95,7 +95,7 @@ permalink: /clusters/
 
     <!-- Cluster 8 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/queer-self-identity.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster8.jpg" class="card-img-top">
           <div class="card-body">
@@ -107,7 +107,7 @@ permalink: /clusters/
 
     <!-- Cluster 9 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/whos-watching.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster9.jpg" class="card-img-top">
           <div class="card-body">
@@ -119,7 +119,7 @@ permalink: /clusters/
 
     <!-- Cluster 10 -->
     <div class="col-md-4 mb-4">
-      <a href="/clusters/trauma/" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/trauma.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
           <img src="/assets/img/cluster10.jpg" class="card-img-top">
           <div class="card-body">
