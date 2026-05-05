@@ -28,3 +28,9 @@ In-class discussion two: Amnesty International and other international organizat
 
 ## Accessibility Statement
 Accessiblity Statement
+
+## Sources
+---
+title: Browse
+layout: browse
+---
