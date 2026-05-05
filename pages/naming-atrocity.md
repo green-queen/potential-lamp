@@ -2,6 +2,7 @@
 title: "Naming Atrocity: Who Decides What Counts As Genocide, And Why It Matters"
 layout: page
 permalink: /clusters/naming-atrocity.html
+custom-foot: js/browse-js.html
 ---
 
 # Heritage, Naming Atrocity
