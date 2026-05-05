@@ -32,4 +32,4 @@ In-class discussion two: Amnesty International and other international organizat
 Accessiblity Statement
 
 ## Sources
-{% include mini-browse.html %}
+{% include browse_collection.html %}
