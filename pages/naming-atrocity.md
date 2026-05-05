@@ -17,6 +17,7 @@ The 1948 Genocide Conventions, a response to the horrors of the Holocaust, attem
 4. 	What are the similarities and differences between each of the three genocide definitions (UN, Lemkin, and LeVine)? What is the rationale behind their differences? How can different definitions of the term impact real-world events?
 
 ## In-class Activity
+<a href="https://www.example.com">This is a link</a>
 Here are some additional sources to supplement discussion that students can explore in class as a collective:
 1. 	(40 second video detailing Shelly’s exchange with Elsner in 1994)[https://www.youtube.com/watch?v=CBfRWq0Sbhs]
 2. 	Recent developments: (USA joins Israel in defending against South Africa claims of genocide)[https://www.commondreams.org/news/icj-us-israel]
