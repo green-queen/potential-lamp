@@ -17,8 +17,15 @@ permalink: /collections/musicdanceliterature.html
 
       <h2>Introduction Video</h2>
 
-      <div style="max-width:800px; height:400px; background:#f5f5f5; display:flex; align-items:center; justify-content:center; border:2px dashed #ccc; margin:0 auto 1.5rem auto;">
-        <p style="color:#777; font-size:1.2rem;">Video coming soon</p>
+      <div style="display:flex; justify-content:center; margin-bottom:1.5rem;">
+      <iframe
+        width="315"
+        height="560"
+        src="https://www.youtube.com/embed/6SPFm_vUsZQ"
+        title="Introduction Video"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
       </div>
 
       <h2>Description</h2>
