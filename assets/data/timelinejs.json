@@ -4,7 +4,7 @@
 # current using relative_url due to jekyll bug, should be absolute_url in production!
 # to just feature parent objects of compound objects, you will want to change the where_exp below to "where_exp: 'item','item.parentid == nil'"
 ---
-{%- assign items = site.data["my-timeline"] | where_exp: 'item', 'item["Year Published"]' -%}
+{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' | where_exp: 'item', 'item.date' -%}
 {
     "title": {
         "media": {
@@ -21,21 +21,21 @@
     "events": [
       {% for item in items %}{
         "media": {
-          "url": "",
-          "alt": {{ item["Object Description (Abstract)"] | default: item["Title"] | jsonify }},
-          "caption": {{ item["Title"] | jsonify }},
-          "link": {{ item["Persistent identifier (usually a DOI)"] | jsonify }}
+          "url": "{{ item.image_small | default: item.image_thumb | default: item.object_location | relative_url }}",
+          "alt": {{ item.image_alt_text | default: item.description | default: item.title | jsonify }},
+          "caption": {{ item.title | jsonify }},
+          "link": "{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}"
         },
         "start_date": { 
-          {% if item["Year Published"] contains '-' %}{% assign dates = item["Year Published"] | strip | split: '-' %}
+          {% if item.date contains '-' %}{% assign dates = item.date | strip | split: '-' %}
           "month": "{{ dates[1] }}",
           "day": "{{ dates[2] }}",
-          "year": "{{ dates[0] }}"{% elsif item["Year Published"] contains '/' %}"year": "{{ item["Year Published"] | strip | split: '/' | last }}"{% else %}
-          "year": "{{ item["Year Published"] }}"{% endif %}
+          "year": "{{ dates[0] }}"{% elsif item.date contains '/' %}"year": "{{ item.date | strip | split: '/' | last }}"{% else %}
+          "year": "{{ item.date }}"{% endif %}
         },
         "text": {
-          "headline": {{ item["Title"] | jsonify }}{% if item["Object Description (Abstract)"] %},
-          "text": {{ item["Object Description (Abstract)"] | jsonify }}{% endif %}
+          "headline": {{ item.title | jsonify }}{% if item.description %},
+          "text": {{ item.description | jsonify }}{% endif %}
         }
       }{% unless forloop.last %},{% endunless %}{% endfor %}
     ]
