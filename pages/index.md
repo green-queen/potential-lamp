@@ -40,7 +40,9 @@ permalink: /
           <a href="{{ '/collections/musicdanceliterature.html' | relative_url }}" class="btn btn-primary">
             View Collection
           </a>
-          <a href="{{ '/collections/musicdanceliterature.html#intro-video' | relative_url }}" class="btn btn-outline-secondary btn-sm mt-2">
+          <a href="https://youtube.com/shorts/6SPFm_vUsZQ"
+            target="_blank"
+            class="btn btn-outline-secondary btn-sm mt-2">
             Watch intro video
           </a>
         </div>

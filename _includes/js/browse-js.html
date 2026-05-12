@@ -43,20 +43,6 @@ const dateFields = ['date', 'created', 'published', 'modified', 'issued', 'date_
 // Cache DOM elements
 var loadingIcon, filterTextBox, browseItemsDiv;
 
-// Initialize selection from localStorage for timeline selection
-// Safely load selected items
-var selectedItems = [];
-try {
-    const stored = localStorage.getItem('browseSelections');
-    if (stored) {
-        selectedItems = JSON.parse(stored);
-        if (!Array.isArray(selectedItems)) selectedItems = [];
-    }
-} catch(e) {
-    console.error("Error parsing saved items", e);
-    selectedItems = [];
-}
-
 {% include helpers/get-icon.js %}
 
 // =============================================================================
@@ -112,29 +98,7 @@ function makeCard(obj) {
         card += `<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#display_template:${encodeURIComponent(obj.display_template)}">${obj.display_template.toUpperCase().replace("_"," ")} ${mediaIcon}</a></small></p>`;
     }
     
-    // --- SELECTION LOGIC & BUTTON FOR TIMELINE ---
-    let isSelected = false;
-    if (typeof selectedItems !== 'undefined' && Array.isArray(selectedItems)) {
-        isSelected = selectedItems.some(i => i.id === obj.id);
-    }
-    
-    var btnClass = isSelected ? 'btn-success' : 'btn-outline-primary';
-    var btnText = isSelected ? 'Selected ✓' : 'Select';
-    
-    // Safely escape quotes in the title so it doesn't break the HTML attribute
-    const safeTitle = obj.title ? obj.title.replace(/"/g, '&quot;').replace(/'/g, '\\\'') : 'Item';
-
-    card += `<hr>
-    <div class="d-flex justify-content-between align-items-center pb-3 px-3">
-        <a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a>
-        <button class="btn btn-sm ${btnClass} select-item-btn" 
-                data-id="${obj.id}" 
-                data-title="${safeTitle}" 
-                onclick="window.toggleSelection('${obj.id}', this)">
-            ${btnText}
-        </button>
-    </div>
-    </div></div></div>`; // Closes card-body, card, and item wrapper
+    card += `<hr><a href="${itemHref}" class="btn btn-sm btn-light" title="link to ${obj.title}">View Full Record</a></div></div></div>`;
 
     return card;
 }
@@ -937,9 +901,6 @@ window.addEventListener('load', function() {
     
     // Set up event handlers
     setupEventHandlers();
-
-    // Renders a selection list
-    renderSelectionList();
 });
 
 /**
@@ -1081,67 +1042,6 @@ function setupEventHandlers() {
                 updateAdvancedSearchModal([{boolean: 'AND', field: field, value: query}]);
             }
         });
-    }
-
-    // ========================================
-    // TIMELINE HANDLING
-    // ========================================
-    function toggleSelection(id, btn) {
-        const itemTitle = btn.getAttribute('data-title');
-        const index = selectedItems.findIndex(item => item.id === id);
-
-        if (index === -1) {
-            // Add to list
-            selectedItems.push({ id: id, title: itemTitle });
-            btn.classList.replace('btn-outline-primary', 'btn-success');
-            btn.innerText = 'Selected ✓';
-        } else {
-            // Remove from list
-            selectedItems.splice(index, 1);
-            btn.classList.replace('btn-success', 'btn-outline-primary');
-            btn.innerText = 'Select';
-        }
-
-        localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
-        renderSelectionList();
-    }
-
-    // 1. Save and Load logic
-    function renderSelectionList() {
-        const listContainer = document.getElementById('selectionListDisplay');
-        if (!listContainer) return;
-
-        if (selectedItems.length === 0) {
-            listContainer.innerHTML = '<p class="text-muted small">No items selected.</p>';
-            return;
-        }
-
-        let html = '<ul class="list-group list-group-flush mb-3">';
-        selectedItems.forEach(item => {
-            html += `<li class="list-group-item d-flex justify-content-between align-items-center p-2 small">
-                        ${item.title}
-                        <button class="btn btn-sm btn-link text-danger p-0" onclick="removeFromList('${item.id}')" style="text-decoration:none">✕</button>
-                     </li>`;
-        });
-        html += '</ul><button class="btn btn-sm btn-outline-danger w-100" onclick="clearAllSelections()">Clear List</button>';
-        listContainer.innerHTML = html;
-    }
-
-    function removeFromList(id) {
-        selectedItems = selectedItems.filter(item => item.id !== id);
-        localStorage.setItem('browseSelections', JSON.stringify(selectedItems));
-        // This forces the cards to redraw with the correct "Select" button state
-        handleHashChange(); 
-        renderSelectionList();
-    };
-
-    function clearAllSelections() {
-        selectedItems = [];
-        localStorage.removeItem('browseSelections');
-        location.reload(); // Reset all button UI states
-
-    // Initialize the display on load
-    document.addEventListener('DOMContentLoaded', renderSelectionList);
     }
 }
 </script>
