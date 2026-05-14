@@ -30,4 +30,4 @@ In-class discussion two: Amnesty International and other international organizat
 ## Accessibility Statement
 This cluster supports accessibility by using multiple forms of media, including shorter readings and video content, to provide different ways for students to engage with material. The cluster emphasizes flexible learning and adaptable classroom activities that can be tailored to diverse student needs and learning preferences.
 
-## Sources
+
