@@ -18,8 +18,8 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 1 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/naming-atrocity.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
-          <div class="card-body" style="color: #FF5733;">
+        <div class="card h-100" style="color: #FF5733;">
+          <div class="card-body">
             <h5 class="card-title">Naming Atrocity</h5>
           </div>
         </div>
@@ -28,7 +28,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
 
     <!-- Cluster 2 -->
     <div class="col-md-4 mb-4">
-      <a href="{{ '/clusters/surveillance-control.html' | relative_url }}" class="text-decoration-none text-dark">
+      <a href="{{ '/clusters/surveillance-control.html' | relative_url }}" class="text-decoration-none text-dark" style="color: #FF5733;">
         <div class="card h-100">
           <img src="/assets/img/cluster2.jpg" class="card-img-top">
           <div class="card-body">
