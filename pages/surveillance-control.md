@@ -21,7 +21,4 @@ This cluster prioritizes approachable materials and combines readings with publi
 
 
 ## Sources
-<div markdown="0">
-  {% include source-cards.html cluster="Surveillance & Control" %}
-</div>
-    
+
