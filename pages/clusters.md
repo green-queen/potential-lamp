@@ -42,7 +42,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
       <a href="{{ '/clusters/care-ethics.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100" style="background-color: #00000080;">
           <div class="card-body">
-            <h5 class="card-title">Care & Ethics</h5>
+            <h5 class="card-title" style="color: #FFFFFF;">Care & Ethics</h5>
           </div>
         </div>
       </a>
@@ -86,7 +86,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
       <a href="{{ '/clusters/framing-past.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100" style="background-color: #00000080;">
           <div class="card-body">
-            <h5 class="card-title">Framing the Past</h5>
+            <h5 class="card-title" style="color: #FFFFFF;">Framing the Past</h5>
           </div>
         </div>
       </a>
