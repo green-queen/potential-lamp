@@ -22,4 +22,4 @@ This cluster prioritizes approachable materials and combines readings with publi
 
 
 ## Sources
-{% include source-cards.html cluster="Heritage, Belonging, and Belief" %}
+    {% include source-cards.html cluster="Heritage, Belonging, and Belief" %}
