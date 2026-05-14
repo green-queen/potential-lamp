@@ -19,9 +19,8 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/naming-atrocity.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster1.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">Naming Atrocity</h5>
+            <h5 style="color: #FF5733;" class="card-title">Naming Atrocity</h5>
           </div>
         </div>
       </a>
