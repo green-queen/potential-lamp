@@ -19,8 +19,9 @@ The goal of this pedagogical cluster is to spark a conversation about pinkwashin
 Alternative advertisement group project: assign students into groups (or let them choose their groups) of 3 - 5 students and provide to each group an advertisement that is engaged in pinkwashing (see images below). Have students identify the instances of pinkwashing and details ways in which they could redesign the marketing to make it authentic. 
 [image1] [image2]
 
-![LinkedIn Pride Logo](../assets/img/linkedin-pride.jpeg)
-<img src="../assets/img/pride-whopper.png" height="200" />
+
+<img src="../assets/img/linkedin-pride.jpeg" height="200" alt = "LinkedIn Pride Logo"/>
+<img src="../assets/img/pride-whopper.png" height="200" alt = "Burger King Pride Whopper Advertisement"/>
 
 
 
