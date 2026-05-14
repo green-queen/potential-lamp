@@ -11,10 +11,9 @@ This pedagogical cluster examines how surveillance is used as a tool of colonial
 
 
 ## Discussion Questions
-1. Reread this quote from Shalhoub-Kevorkian: "the routine nature of supervision ... created a constant and pervasive fear of being watched ... This has created a situation wherein for Palestinians, normalcy became impossible". What is "normalcy" in this context, and how is it affected by constant surveillance?  
-2. How do individuals and/or communities respond to and resist systems of hypersurveillance?  
-3. How does constant surveillance shape identity and self-perception?
-
+1. Reread this quote from Shalhoub-Kevorkian: "the routine nature of supervision ... created a constant and pervasive fear of being watched ... This has created a situation wherein for Palestinians, normalcy became impossible". What is "normalcy" in this context, and how is it affected by constant surveillance?    
+2. How do individuals and/or communities respond to and resist systems of hypersurveillance?    
+3. How does constant surveillance shape identity and self-perception?  
 
 
 ## Accessibility Statement
