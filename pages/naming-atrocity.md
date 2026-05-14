@@ -5,7 +5,6 @@ permalink: /clusters/naming-atrocity.html
 ---
 
 # Heritage, Naming Atrocity
-[image]
 
 ## Statement of Pedagogical Intent
 The 1948 Genocide Conventions, a response to the horrors of the Holocaust, attempted to codify a global commitment to preventing such atrocities to happen again. The term “genocide” was intended to be the rallying cry that would make the world take immediate action against the party committing it. This has rarely been the case. In engaging with the materials in this cluster, students will explore the legal definition of genocide by the UN and the international community’s obligation to “prevent and punish the crime of genocide,” using this as a basis to explore how these principles actualized during the Rwandan Genocide. With findings of genocide substantiated by human rights watchdog and international organizations in mind, students will then examine if a similar situation is unfolding in Gaza. Students can further contrast the driving factors of American inaction in Rwanda versus Gaza. Overall, this set of materials aims to convey the interplay between national political interests and the weak enforceability of international law, and explores how personal and national interests can supersede international law and morality. Students engaging with these materials will gain a new perspective on how international law plays out in reality and gain a deeper geopolitical understanding of our world.
@@ -29,6 +28,6 @@ In-class discussion two: Amnesty International and other international organizat
 
 
 ## Accessibility Statement
-Accessiblity Statement
+This cluster supports accessibility by using multiple forms of media, including shorter readings and video content, to provide different ways for students to engage with material. The cluster emphasizes flexible learning and adaptable classroom activities that can be tailored to diverse student needs and learning preferences.
 
 ## Sources
