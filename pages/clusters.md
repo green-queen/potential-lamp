@@ -18,7 +18,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 1 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/naming-atrocity.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100" style="color: #FF5733;">
+        <div class="card h-100" style="background-color: #FF5733;">
           <div class="card-body">
             <h5 class="card-title">Naming Atrocity</h5>
           </div>
@@ -30,7 +30,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/surveillance-control.html' | relative_url }}" class="text-decoration-none text-dark" style="color: #FF5733;">
         <div class="card h-100">
-          <img src="/assets/img/cluster2.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Surveillance & Control</h5>
           </div>
@@ -42,7 +41,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/care-ethics.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster3.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Care & Ethics</h5>
           </div>
@@ -54,7 +52,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="/clusters/pinkwashing.html/" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster4.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Queer Palestinians and Pinkwashing</h5>
           </div>
@@ -66,7 +63,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="/clusters/stem-education.html/" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster5.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">STEM Education</h5>
           </div>
@@ -78,7 +74,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/spatial-violence.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster6.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Violence from Above</h5>
           </div>
@@ -90,7 +85,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/framing-past.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster7.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Framing the Past</h5>
           </div>
@@ -102,7 +96,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/queer-self-identity.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster8.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Creation of Queer Self-Identity</h5>
           </div>
@@ -114,7 +107,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/whos-watching.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster9.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Who's Watching?</h5>
           </div>
@@ -126,7 +118,6 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/trauma.html' | relative_url }}" class="text-decoration-none text-dark">
         <div class="card h-100">
-          <img src="/assets/img/cluster10.jpg" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">Palestinian Trauma</h5>
           </div>
