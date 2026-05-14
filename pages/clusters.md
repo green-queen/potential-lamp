@@ -29,7 +29,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 2 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/surveillance-control.html' | relative_url }}" class="text-decoration-none text-dark" style="color: #FF5733;">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #007A3D80;">
           <div class="card-body">
             <h5 class="card-title">Surveillance & Control</h5>
           </div>
@@ -40,7 +40,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 3 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/care-ethics.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #00000080;">
           <div class="card-body">
             <h5 class="card-title">Care & Ethics</h5>
           </div>
@@ -73,7 +73,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 6 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/spatial-violence.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #007A3D80;">
           <div class="card-body">
             <h5 class="card-title">Violence from Above</h5>
           </div>
@@ -84,7 +84,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 7 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/framing-past.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #00000080;">
           <div class="card-body">
             <h5 class="card-title">Framing the Past</h5>
           </div>
@@ -117,7 +117,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 10 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/trauma.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #007A3D80;">
           <div class="card-body">
             <h5 class="card-title">Palestinian Trauma</h5>
           </div>
