@@ -32,16 +32,16 @@ Following the gallery walk and censorship examples, students physically move to 
 Side 1: “Art shifts power and can break the panopticon”, Side 2: “Art gets neutralized, giving power to the panopticon effect”
 
 #### Gallery Pieces  
-Broomberg, Adam. Counter-Surveillance H2. https://adambroomberg.com/projects/counter-surveillance-h2/
+<a href = "https://adambroomberg.com/projects/counter-surveillance-h2/"> Broomberg, Adam. Counter-Surveillance H2. </a>
 An artistic installation in Hebron's H2 zone that raises questions about surveillance infrastructures, the Israel gaze, and the exploitative occupation. 
 
-"Cameras Illicitly Planted by Artist in Palestinian Olive Grove to Broadcast Life from Israeli-Occupied West Bank to Museums Worldwide." The Art Newspaper, September 9, 2022. https://www.theartnewspaper.com/2022/09/09/cameras-illicitly-planted-by-artist-in-palestinian-olive-grove-to-broadcast-life-from-israeli-occupied-west-bank-to-museums-worldwide
+<a href = "https://www.theartnewspaper.com/2022/09/09/cameras-illicitly-planted-by-artist-in-palestinian-olive-grove-to-broadcast-life-from-israeli-occupied-west-bank-to-museums-worldwide"> Cameras Illicitly Planted by Artist in Palestinian Olive Grove to Broadcast Life from Israeli-Occupied West Bank to Museums Worldwide." The Art Newspaper, September 9, 2022. </a>
 A news report covering an activist art project that uses hidden surveillance cameras not to monitor Palestinians but to broadcast their daily life to global audiences, helping improve visibility and record cultural heritage in a time of disarray. 
 
-I Witness Silwan. https://www.iwitnesssilwan.org/ 
+<a href = " https://www.iwitnesssilwan.org/"> I Witness Silwan. </a>
 A public art project based in occupied East Jerusalem that installs large-scale murals of eyes belonging to local residents, activists, and global figures across the hillsides of Silwan (Palestinian neighborhood). This serves as a powerful reversal of the surveillance gaze, because it transforms the act of watching from a state power tool into one of collective witness and resistance, emphasizing that this Palestinian displacement in Silwan is seen, and documented, and remembered across the world. 
 
-"Art Censorship Index: Israel-Palestine, 2023–Ongoing." National Coalition Against Censorship. https://ncac.org/art-censorship-index-israel-palestine-2023-onwards
+<a href = "https://ncac.org/art-censorship-index-israel-palestine-2023-onwards"> "Art Censorship Index: Israel-Palestine, 2023–Ongoing." National Coalition Against Censorship. </a>
 A living document tracking the censorship of Palestinian and pro-Palestinian artistic expression in Western areas, including gallery cancellations, funding withdrawals, and social media suppression. 
 
 
