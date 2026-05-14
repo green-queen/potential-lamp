@@ -5,7 +5,6 @@ permalink: /clusters/queer-self-identity.html
 ---
 
 #  The Creation of Queer Self-Identity Under Settler Colonialism
-[image]
 
 ## Statement of Pedagogical Intent
 This cluster creates a comprehensive picture of the nuanced impacts of settler colonialism on queer self-identification and broader queer identity. It is comprised of three materials: an academic paper studying the possible intersections between queer theory, indigenous studies, and theories of settler colonialism; a book (of which the first chapter is suggested as an in-class reading) including queer Palestinians’ descriptions of their lives facing Zionist oppression and internal homophobia; and an Instagram account run by queer Gazawi who opine on queer and decolonial Palestinian identity. These sources introduce a variety of perspectives, from the academic and theoretical to first-person reports from Palestine, around what author Sa’ad Atshan calls the “empire of critique”: the overlapping intersections of homophobia and settler colonialism, both internal and external, that stand as an obstacle to liberation for queer Palestinians. 
@@ -21,4 +20,4 @@ Students engaging with these materials, which are deliberately (meta)critical an
 4. The Ward Instagram platform presents critiques of Palestinian civil society and governance, Israel’s pinkwashing campaign and genocidal violence against Palestinians, and global Palestine solidarity activists’ tendency to overlook or sacrifice the voices of queer Palestinians for a broader “anti-colonial movement”. How does the Ward Instagram platform present decolonial queer Palestinian identity amidst all of these critiques? When considered as a platform meant to message to Palestine activists outside of Gaza, what goals is the platform trying to achieve?
 
 ## Accessibility Statement
-Accessiblity Statement
+This cluster incorporates a range of source formats, including academic writing, case studies, and social media content, to support different ways of engaging with and understanding the material. By combining theoretical analysis, personal narratives, and Indigenous perspectives, the cluster encourages students to synthesize ideas across multiple forms of knowledge and representation.
