@@ -5,7 +5,6 @@ permalink: /clusters/whos-watching.html
 ---
 
 # Who’s Watching? Digital Surveillance in Occupied Areas
-[image]
 
 ## Statement of Pedagogical Intent
 This cluster of materials is designed to provoke students into questioning how surveillance functions as an instrument of control, management, and cultural erasure, particularly when implemented in occupied territories. The central goal is for students to move beyond understanding surveillance, specifically algorithmic surveillance, as a purely technical or legal infrastructure, and toward recognizing its deeply human consequences: how being watched reshapes identity, community, and the possibility of resistance. Case studies in Palestine and Xinjiang will frame a key tension between the protective nature of surveillance (national security, public safety) and its use as a mechanism of ethnic sorting, territorial control, and exploitative power. Foucault's concept of the panopticon anchors this exploration, helping students understand why the mere possibility of being watched is enough to produce conformity and self-censorship. Crucially, students will also examine how surveillance in these contexts is inseparable from land and movement, and how controlling who can go where, and how, is central to maintaining occupation. By pairing political science journals, legal scholarship, and feminist theory with documentary film, activist art, and first-person testimony, this cluster will push students to understand the intersectional impacts of digital surveillance on power dynamics and communities worldwide.
@@ -47,4 +46,4 @@ A living document tracking the censorship of Palestinian and pro-Palestinian art
 
 
 ## Accessibility Statement
-Accessiblity Statement
+This cluster combines academic texts, personal narratives, documentary film, and activist art to support multiple ways of engaging with this complex topic. Discussion activities encourage reflection, collaboration, and flexible participation.
