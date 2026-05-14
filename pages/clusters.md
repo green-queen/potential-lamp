@@ -18,7 +18,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 1 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/naming-atrocity.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100" style="background-color: #FF5733;">
+        <div class="card h-100" style="background-color: #CE112680;">
           <div class="card-body">
             <h5 class="card-title">Naming Atrocity</h5>
           </div>
@@ -62,7 +62,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 5 -->
     <div class="col-md-4 mb-4">
       <a href="/clusters/stem-education.html/" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #CE112680;">
           <div class="card-body">
             <h5 class="card-title">STEM Education</h5>
           </div>
@@ -106,7 +106,7 @@ We feature a variety of subjects in our clusters, from early STEM education to h
     <!-- Cluster 9 -->
     <div class="col-md-4 mb-4">
       <a href="{{ '/clusters/whos-watching.html' | relative_url }}" class="text-decoration-none text-dark">
-        <div class="card h-100">
+        <div class="card h-100" style="background-color: #CE112680;">
           <div class="card-body">
             <h5 class="card-title">Who's Watching?</h5>
           </div>
