@@ -1,6 +1,6 @@
 ---
 title: "Surveillance & Control"
-layout: page
+layout: default
 permalink: /clusters/surveillance-control.html
 ---
 
