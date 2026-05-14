@@ -5,7 +5,6 @@ permalink: /clusters/trauma.html
 ---
 
 # Palestinian Trauma
-[image]
 
 ## Statement of Pedagogical Intent
 This cluster focuses on how assessments of trauma in Palestine are conveyed through both numbers and lived experiences. This grouping of materials aims to help students come to see trauma not only as an individual psychological condition, but as a collective and structural experience shaped by environment, violence, and instability. These sources will guide students to contemplate how the concept of PTSD (post-traumatic stress disorder) may be inadequate or even misleading in a context where violence is ongoing.
@@ -18,4 +17,4 @@ Sources include qualitative medical case studies that analyze trauma in Palestin
 
 
 ## Accessibility Statement
-Accessiblity Statement
+This cluster brings together medical research and qualitative analysis to support different levels of background knowledge and engagement with the topic of trauma in Palestine. By using a range of formats and prioritizing openly available materials whenever possible, this cluster encourages accessible and flexible exploration of the subject.
