@@ -19,3 +19,27 @@ This pedagogical cluster examines how surveillance is used as a tool of colonial
 
 ## Accessibility Statement
 This cluster prioritizes approachable materials and combines readings with publicly available multimedia resources. The cluster supports multiple ways of intaking and engaging with information while encouraging flexible exploration of topics based on student interests and classroom needs.
+
+
+## Sources
+<div class="row">
+  {% for item in site.data.cluster-collection-metadata %}
+  {% if item["Assigned Collection"] == "Heritage, Belonging, and Belief" %}
+
+  <div class="col-md-4 mb-4">
+  <div class="card h-100">
+  <div class="card-body">
+  <h5 class="card-title">{{ item.Title }}</h5>
+    <p><strong>Creator:</strong> {{ item["Creator/Author"] }}</p>
+    <p><strong>Type:</strong> {{ item["Item Type"] }}</p>
+    <p><strong>Year:</strong> {{ item["Year Published"] }}</p>
+    <a href="{{ '/items/' | append: item.objectid | append: '.html' | relative_url }}" 
+        class="btn btn-primary">
+      View Source
+    </a>
+    </div>
+    </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
